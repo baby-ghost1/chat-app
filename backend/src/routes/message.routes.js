@@ -5,4 +5,5 @@ const router = express.Router();
 router.get('/send', (req, res) => {
     res.send('Send message endpint')
 })
+
 export default router;
